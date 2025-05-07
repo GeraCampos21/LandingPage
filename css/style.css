@@ -4,8 +4,8 @@
     --fuenteParrafos: 'Open Sans', sans-serif;
     --secundario: #fffedd;
     --primario: #ff4e50;
-    --blanco: #ffffff;
-    --negro: #000000;
+    --blanco: #efefef;
+    --negro: #929292;
 }
 
 /***************************variables globales *****************************************/
@@ -21,14 +21,15 @@
     font-family: var(--fuenteParrafos);
     font-weight: 400;
 }
-.global-correo{
+
+.global-correo {
     background-color: var(--primario);
     color: var(--blanco);
     font-family: var(--fuenteHeading);
     font-weight: 700;
 }
 
-.body-color{
+.body-color {
     background-color: var(--secundario);
 }
 
@@ -36,12 +37,12 @@
 /**Estos son para el color, tamaño y tipo de letra para lo que es movil, vista movil**/
 
 .custom-navbar {
-    background-color: var(--primario)  ;
+    background-color: var(--primario);
 }
 
 .custom-head {
     font-family: var(--fuenteHeading);
-    font-size: 1rem;
+    font-size: 1.8rem;
     /* o 24px, 3rem, etc. */
     font-weight: 400;
     /* para hacerlo en negrita */
@@ -51,58 +52,94 @@
     color: var(--blanco);
 }
 
-.icon-color {
+.search-wrapper {
+    position: relative;
+    width: fit-content;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: rgb(219, 42, 42);
+}
+
+
+.navbar-search {
+    border: 1px solid rgb(7, 75, 170);
+    /* Ejemplo: cambiar el borde */
+    background-color: var(--secundario);
+    /* Tu color primario */
+    border-radius: 1.5rem;
+    padding-left: 30px;
+    /* espacio para el ícono */
+    /* Bordes redondeados */
+    /* Espaciado interno */
+}
+
+.navbar-btn {
+    background-color: var(--secundario);
+}
+
+
+.navbar-ul a {
     color: var(--blanco);
+    font-family: var(--fuenteHeading);
+    font-weight: 700;
+    font-size: 1.2rem;
+
 }
 
-.navbar-toggler {
-    border-color: white;
-    /* Opcional: cambiar color del borde */
-}
-
-/**hacer pequeña la barra del buscaddor*/
-@media (max-width: 576px) {
-    .custom-search {
-        width: 100px;
-        font-size: 0.8rem;
+@media (min-width: 768px) {
+    .navbar-input {
+        width: 25rem;
     }
-
-    .custom-search-btn {
-        font-size: 0.4rem;
-        padding: 0.15rem 0.2rem;
-    }
-}
-
-@media (max-width: 360px) {
-    .custom-search {
-        width: 80px;
-        font-size: 0.8rem;
-    }
-
-    .custom-search-btn {
-        font-size: 0.4rem;
-        padding: 0.25rem 0.5rem;
-    }
+    
 }
 
 
 /*Los tamaños de texto de la pantalla para lo que es pantallas de escritorio*/
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .custom-head {
         font-family: var(--fuenteHeading);
         font-size: 2rem;
         /* o 24px, 3rem, etc. */
         font-weight: 700;
         /* para hacerlo en negrita */
+        margin-left: 4rem;
+
     }
 
-    .custom-text {
-        font-family: var(--fuenteParrafos);
-        font-size: 1.5rem;
-        /* o 24px, 3rem, etc. */
-        font-weight: 400;
-        /* para hacerlo en negrita */
+    .navbar-contend {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+
     }
+
+    .navbar-alineado {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin-left: 13rem;
+        gap: 9rem;
+
+    }
+
+    .navbar-ul a {
+        color: var(--blanco);
+        font-family: var(--fuenteHeading);
+        font-weight: 700;
+        font-size: 1.2rem;
+
+    }
+
+    .navbar-input {
+        width: 25rem;
+    }
+
 
 }
 
@@ -110,13 +147,13 @@
 
 /***********************************Estos para los articulos de siman primera seccion*******************************************************************/
 
-.section1-fuent h2{
+.section1-fuent h2 {
     color: var(--negro);
     font-family: var(--fuenteHeading);
     font-weight: 700;
 }
 
-.section1-fuent p{
+.section1-fuent p {
     color: var(--negro);
     font-family: var(--fuenteParrafos);
     font-weight: 400;
@@ -191,7 +228,7 @@
         font-weight: 700;
         font-size: 1.3rem;
     }
-    
+
 }
 
 /***********************************FIN SECCION BANNER*******************************************************************/
@@ -286,7 +323,9 @@ a {
 
     }
 
-}/****************FIN DE  CODIGO ES PARA PANTALLA GRANDES*********/
+}
+
+/****************FIN DE  CODIGO ES PARA PANTALLA GRANDES*********/
 
 
 /***********************************FIN DE LA SECCION  2 PROMOCION DIA DE LA MADRE*******************************************************************/
@@ -326,7 +365,7 @@ a {
     font-weight: 400;
 }
 
-.cont-text{
+.cont-text {
     color: var(--negro);
     font-family: var(--fuenteParrafos);
     font-weight: 400;
@@ -467,7 +506,7 @@ a {
 }
 
 /*****Estilo al boton de ver mas en articulos******/
-.global-b a{
+.global-b a {
     color: var(--blanco);
     font-weight: 700;
     background-color: var(--primario);
