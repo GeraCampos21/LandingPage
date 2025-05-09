@@ -8,7 +8,7 @@ Este repositorio contiene un conjunto de **landing pages diseñadas para la Tien
 
 ## 🌐 Demo en línea
 
-🔗 [Ver Sitio en Vivo](https://lading-siman.netlify.app/ofertas-gaming)
+🔗 [Ver Sitio en Vivo](https://lading-siman.netlify.app/)
 
 ---
 
@@ -44,7 +44,7 @@ Este repositorio contiene un conjunto de **landing pages diseñadas para la Tien
 ## 🔗 Enlaces del Proyecto
 
 - 📂 Repositorio: [https://github.com/GeraCampos21/LandingPage](https://github.com/GeraCampos21/LandingPage)  
-- 🌍 Vista en línea: [https://lading-siman.netlify.app/ofertas-gaming](https://lading-siman.netlify.app/ofertas-gaming)
+- 🌍 Vista en línea: [https://lading-siman.netlify.app/](https://lading-siman.netlify.app/)
 
 ---
 
