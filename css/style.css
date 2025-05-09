@@ -2,8 +2,8 @@
 :root {
     --fuenteHeading: 'PT Sans', sans-serif;
     --fuenteParrafos: 'Open Sans', sans-serif;
-    --secundario: #fffedd;
     --primario: #ff4e50;
+    --secundario: #fffedd;
     --blanco: #efefef;
     --negro: #929292;
 }
@@ -29,8 +29,12 @@
     font-weight: 700;
 }
 
-.body-color {
-    background-color: var(--secundario);
+.body-oferta{
+    background-color: var(--blanco);
+}
+
+.form-email-color {
+    background-color: var(--blanco);
 }
 
 
@@ -339,7 +343,7 @@ a {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
 
 }
 
@@ -349,8 +353,14 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
+        flex-wrap: wrap;
     }
+
+    .contend-border{
+        border: var(--primario);
+        background-color: #ffffff;
+        border-radius: 1rem;
+     }
 
 }
 
@@ -365,11 +375,7 @@ a {
     font-weight: 400;
 }
 
-.cont-text {
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
-    font-weight: 400;
-}
+
 
 
 .cont-icon {
@@ -384,6 +390,7 @@ a {
 /***********************************FIN DE SECCION sobre informacion de siman*******************************************************************/
 
 
+/************************parte del Footer  y Estos son para el color, tamaño y tipo de letra para lo que es movil, vista movil******************************/
 .cont-foot {
     display: flex;
     flex-direction: column;
@@ -392,8 +399,6 @@ a {
 
 
 }
-
-/**Estos son para el color, tamaño y tipo de letra para lo que es movil, vista movil**/
 
 .custom-footer {
     background-color: var(--secundario);
@@ -444,93 +449,6 @@ a {
 }
 
 /***********************************FIN DE SECCION sobre footer*******************************************************************/
-
-
-
-/*********************************** Archivo Gaming*******************************************************************/
-
-/*********************************** Seccion de card*******************************************************************/
-.contend-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.contend-grid h5 {
-    color: var(--negro);
-    font-family: var(--fuenteHeading);
-    font-weight: 700;
-}
-
-.contend-grid p {
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
-    font-weight: 400;
-}
-
-
-.contend-grid li:nth-of-type(1) {
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
-    font-weight: 400;
-}
-
-.contend-grid li:nth-of-type(2) {
-    color: var(--primario);
-    font-family: var(--fuenteParrafos);
-    font-weight: 400;
-}
-
-
-.contend-grid img {
-    width: 285px;
-    /* Tamaño fijo de ancho */
-    height: 300px;
-    /* Tamaño fijo de altura */
-    object-fit: cover;
-    /* Mantiene la proporción y recorta si es necesario */
-}
-
-.silla-img img {
-    width: 285px;
-    /* Tamaño fijo de ancho */
-    height: 500px;
-    /* Tamaño fijo de altura */
-    object-fit: cover;
-    /* Mantiene la proporción y recorta si es necesario */
-}
-
-.no-border {
-    border: none !important;
-}
-
-/*****Estilo al boton de ver mas en articulos******/
-.global-b a {
-    color: var(--blanco);
-    font-weight: 700;
-    background-color: var(--primario);
-    margin-top: 1rem;
-}
-
-
-
-@media(min-width: 768px) {
-    .contend-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-
-}
-
-@media (min-width: 992px) {
-    .contend-grid {
-        grid-template-columns: repeat(4, 1fr);
-        /* 4 columnas para desktop */
-    }
-}
-
 
 
 /***********************************Fin seccion de card*******************************************************************/

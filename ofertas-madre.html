@@ -13,6 +13,7 @@
 
     <!-- Luego tu estilo personalizado -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cards.css">
 
     <!-- Tipografías -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,71 +23,106 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <title>Landing Page Siman</title>
+    <title>Ofertas Madre</title>
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICq6v3K7yNoaThdO4GTcALecc3xHSQoe4YQ&s">
 </head>
 
 
-<body >
-         <!-- SECCION DE navbar -->
-         <header>
-            <nav class="navbar navbar-expand-lg custom-navbar">
-              <div class="container-fluid navbar-contend">
+<body class="body-oferta">
+    <!-- SECCION DE navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg custom-navbar">
+            <div class="container-fluid navbar-contend">
                 <p class=" text-white custom-head pt-3">
-                  <a href="./index.html" class=""> <span><i class="bi bi-diamond-fill"></i> SIMAN.COM </span></a>
+                    <a href="./index.html" class=""> <span><i class="bi bi-diamond-fill"></i> SIMAN.COM </span></a>
                 </p>
-          
-                <button class="navbar-toggler navbar-btn " type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                  aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+
+                <button class="navbar-toggler navbar-btn " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-          
+
                 <div class="collapse navbar-collapse navbar-alineado " id="navbarScroll">
-                  <ul class="navbar-nav navbar-ul">
-                    <li class="nav-item ">
-                      <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./ofertas-madre.html">Ofertas</a>
-                    </li>
-          
-                    <li class="nav-item">
-                      <a class="nav-link" href="./ofertas-gaming.html">Gaming</a>
-                    </li>
-                  </ul>
-                  <div class="search-wrapper">
-                    <i class="fa fa-search search-icon"></i>
-                    <input class="form-control navbar-input navbar-search" type="search" placeholder="Search"
-                      aria-label="Search" />
-                  </div>
-          
+                    <ul class="navbar-nav navbar-ul">
+                        <li class="nav-item ">
+                            <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ofertas-madre.html">Ofertas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ofertas-gaming.html">Gaming</a>
+                        </li>
+                    </ul>
+                    <div class="search-wrapper">
+                        <i class="fa fa-search search-icon"></i>
+                        <input class="form-control navbar-input navbar-search" type="search" placeholder="Search"
+                            aria-label="Search" />
+                    </div>
+
                 </div>
-              </div>
-            </nav>
-          </header>
-        
+            </div>
+        </nav>
+    </header>
+
     <main class="container ">
 
+        <!-- seccion para enunciado-->
+        <section class="text-center  mt-4">
+            <h1 class="global-head">¡Descuentos exclusivos en moda, belleza y más para ella!</h1>
+        </section>
+        <section class="text-center  mt-5">
+            <h3 class="global-head">Por ser el mes de la madre</h3>
+        </section>
+
+        <section class=" container  container-contact mt-3 ">
+        
+            <article class="cont-text contend-border p-lg-4 p-md-2">
+                <i class="bi bi-gift cont-icon"></i>
+                <p class="global-head"> Regalos personalizados</p>
+            </article>
+
+            <article class="cont-text contend-border  p-lg-4 p-md-2">
+                <i class="bi bi-percent  cont-icon"></i>
+                <p class="global-head">Muchos Descuentos</p>
+            </article>
+
+            <article class="cont-text contend-border p-lg-4 p-md-2">
+                <i class="bi bi-truck cont-icon"></i>
+                <p class="global-head">Recibe Envío Gratis</p>
+            </article>
+
+            <article class="cont-text contend-border p-lg-4 p-md-2">
+                <i class="bi bi-telephone cont-icon"></i>
+                 <p  class="global-head">Llama al 2298-3777</p>
+            </article>
+        </section>
+
+
+
         <!-- FRAGANCIAS PARA MAMA -->
-        <section class=" contend-grid  mt-3 ">
+        <section class=" contend-grid  mt-5 ">
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/372994-1600-auto?v=638751568409730000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Fragancia">
+                <img src="https://siman.vtexassets.com/arquivos/ids/372994-1600-auto?v=638751568409730000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Fragancia">
                 <div class="card-body">
                     <h5 class="card-title ">La Vie Est Belle Eau de Parfum</h5>
                     <p class="card-text ">Tipo de producto: Fragancia</p>
-                </div> 
+                </div>
                 <ul class="list-group list-group-flush ">
                     <li class="list-group-item no-border text-decoration-line-through ">Precio regular: $177.00</li>
                     <li class="list-group-item ">Oferta: $141.60</li>
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
 
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/330995-500-auto?v=637250652655070000&width=500&height=auto&aspect=true" class="card-img-top"
-                    alt="Fragancia">
+                <img src="https://siman.vtexassets.com/arquivos/ids/330995-500-auto?v=637250652655070000&width=500&height=auto&aspect=true"
+                    class="card-img-top" alt="Fragancia">
                 <div class="card-body">
                     <h5 class="card-title ">Daisy Love Eau de Toilette </h5>
                     <p class="card-text ">Tipo de producto: Fragancia</p>
@@ -95,13 +131,13 @@
                     <li class="list-group-item no-border text-decoration-line-through ">Precio regular: $137.00</li>
                     <li class="list-group-item ">Oferta: $109.99</li>
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/5083057-1600-auto?v=638409550863130000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Fragancia">
+                <img src="https://siman.vtexassets.com/arquivos/ids/5083057-1600-auto?v=638409550863130000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Fragancia">
                 <div class="card-body">
                     <h5 class="card-title ">Set Pure Romantic Eau de Parfum</h5>
                     <p class="card-text ">Tipo de producto: Estuche</p>
@@ -109,15 +145,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through ">Precio regular: $26.00</li>
                     <li class="list-group-item">Oferta: $20.80</li>
-                    
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6197672-1600-auto?v=638633068676430000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Fragancia">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6197672-1600-auto?v=638633068676430000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Fragancia">
                 <div class="card-body">
                     <h5 class="card-title">Set Burberry Hero Eau de Toilette</h5>
                     <p class="card-text">Tipo de producto: Estuche</p>
@@ -125,10 +161,10 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $125.00</li>
                     <li class="list-group-item">Oferta: $119</li>
-                   
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
         </section>
@@ -136,25 +172,25 @@
         <!-- ARREGLOS PARA REGALAR A MAMA -->
         <section class=" contend-grid silla-img  mt-3">
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6806785-1200-auto?v=638816539252430000&width=1200&height=auto&aspect=true" class="card-img-top"
-                    alt="arreglo floral">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6806785-1200-auto?v=638816539252430000&width=1200&height=auto&aspect=true"
+                    class="card-img-top" alt="arreglo floral">
                 <div class="card-body">
                     <h5 class="card-title">Florely</h5>
                     <p class="card-text">Arreglo floral MOM06
-                        </p>
+                    </p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $105.00</li>
                     <li class="list-group-item">Oferta: $89.25</li>
-                
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6806796-1600-auto?v=638809586937870000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Arreglo floral ">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6806796-1600-auto?v=638809586937870000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Arreglo floral ">
                 <div class="card-body">
                     <h5 class="card-title">Florely</h5>
                     <p class="card-text">Arreglo floral MOM06</p>
@@ -162,15 +198,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $105.00</li>
                     <li class="list-group-item">Oferta: $89.25</li>
-                    
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6846146-1600-auto?v=638815608000900000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Arreglo floral">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6846146-1600-auto?v=638815608000900000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Arreglo floral">
                 <div class="card-body">
                     <h5 class="card-title">Peckes</h5>
                     <p class="card-text">Arreglo Premium 6 rosas ecuatorianas combinadas</p>
@@ -178,15 +214,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $56.00</li>
                     <li class="list-group-item">Oferta: $47.60</li>
-                   
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6806814-1600-auto?v=638816538479900000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Arreglo floral">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6806814-1600-auto?v=638816538479900000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Arreglo floral">
                 <div class="card-body">
                     <h5 class="card-title">Florely</h5>
                     <p class="card-text">Arreglo floral MOM08</p>
@@ -194,10 +230,10 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $50.00</li>
                     <li class="list-group-item">Oferta: $42.50</li>
-                    
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
         </section>
@@ -206,8 +242,8 @@
         <!-- CARTERAS PARA MUJER -->
         <section class=" contend-grid  mt-3">
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6818176-1600-auto?v=638809385384070000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Tipo de cartera: Satchel">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6818176-1600-auto?v=638809385384070000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Tipo de cartera: Satchel">
                 <div class="card-body">
                     <h5 class="card-title">Nine West</h5>
                     <p class="card-text">Cartera satchel Nine West Margery color blanco para mujer</p>
@@ -215,15 +251,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $79.90</li>
                     <li class="list-group-item">Oferta: $51.94</li>
-                    
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6817418-1600-auto?v=638808745009730000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Tipo de cartera: satchel">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6817418-1600-auto?v=638808745009730000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Tipo de cartera: satchel">
                 <div class="card-body">
                     <h5 class="card-title">Nine West</h5>
                     <p class="card-text">Cartera satchel Nine West Chelsay color café para mujer</p>
@@ -231,15 +267,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $79.90</li>
                     <li class="list-group-item">Oferta: $51.94</li>
-                 
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6849147-1600-auto?v=638815653841630000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Tipo de cartera: Crossbody">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6849147-1600-auto?v=638815653841630000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Tipo de cartera: Crossbody">
                 <div class="card-body">
                     <h5 class="card-title">Sfera</h5>
                     <p class="card-text">Cartera crossbody Sfera color dorado para mujer</p>
@@ -247,15 +283,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $29.90</li>
                     <li class="list-group-item">Oferta: $19.44</li>
-                    
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6817425-1600-auto?v=638808745033130000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Tipo de cartera: Tote">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6817425-1600-auto?v=638808745033130000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Tipo de cartera: Tote">
                 <div class="card-body">
                     <h5 class="card-title">Nine West</h5>
                     <p class="card-text">Cartera tote Nine West Lior color beige para mujer</p>
@@ -263,37 +299,37 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $139.99</li>
                     <li class="list-group-item">Oferta: $119.99</li>
-                   
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
         </section>
 
 
-         <!-- SECADORAS PARA REGALAR A MAMA -->
-         <section class=" contend-grid silla-img  mt-3">
+        <!-- SECADORAS PARA REGALAR A MAMA -->
+        <section class=" contend-grid silla-img  mt-3">
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/6782168-1600-auto?v=638796533706270000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Maybelline Lifter">
+                <img src="https://siman.vtexassets.com/arquivos/ids/6782168-1600-auto?v=638796533706270000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Maybelline Lifter">
                 <div class="card-body">
                     <h5 class="card-title">Maybelline New York</h5>
                     <p class="card-text">Maybelline Lifter Gloss Lifter Plump Lip Plumper Gloss with Maxi-Lip
-                        </p>
+                    </p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular:$13.40</li>
                     <li class="list-group-item">Oferta: $10.72</li>
-                
+
                 </ul>
                 <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/793831-1600-auto?v=637329332797500000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Lip Lifter Gloss">
+                <img src="https://siman.vtexassets.com/arquivos/ids/793831-1600-auto?v=637329332797500000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Lip Lifter Gloss">
                 <div class="card-body">
                     <h5 class="card-title">L'Oréal Paris</h5>
                     <p class="card-text">Ácido Hialurónico Crema de día Anti-Arrugas</p>
@@ -301,15 +337,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $20.80 </li>
                     <li class="list-group-item">Oferta: $16.64</li>
-                    
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/1487081-1600-auto?v=637594586995170000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Polvo Compacto">
+                <img src="https://siman.vtexassets.com/arquivos/ids/1487081-1600-auto?v=637594586995170000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Polvo Compacto">
                 <div class="card-body">
                     <h5 class="card-title">Maybelline New York</h5>
                     <p class="card-text">Polvo Compacto Fit Me Mate & Sin Poros</p>
@@ -317,15 +353,15 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $9.75</li>
                     <li class="list-group-item">Oferta: $7.31</li>
-                   
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
             <div class="card no-border" style="width: 18rem;">
-                <img src="https://siman.vtexassets.com/arquivos/ids/5881896-1600-auto?v=638545857605100000&width=1600&height=auto&aspect=true" class="card-img-top"
-                    alt="Garnier Skin">
+                <img src="https://siman.vtexassets.com/arquivos/ids/5881896-1600-auto?v=638545857605100000&width=1600&height=auto&aspect=true"
+                    class="card-img-top" alt="Garnier Skin">
                 <div class="card-body">
                     <h5 class="card-title">Garnier</h5>
                     <p class="card-text">Garnier Skin Active Agua Micelar en Aceite 400ml</p>
@@ -333,34 +369,38 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item no-border text-decoration-line-through">Precio regular: $17.15</li>
                     <li class="list-group-item">Oferta: $12.86</li>
-                    
+
                 </ul>
-                <div class="card-body ">
-                    <a href="#" class="card-link "> <i class="bi bi-cart-check"></i> agregar al carrito</a>
+                <div class="card-body text-center ">
+                    <a href="#" class="card-link "> Más Detalles</a>
                 </div>
             </div>
         </section>
 
-        <section class=" conteiner banner-content text-center global-b">
-            <a href="" class="btn btn-light btn-lg">Ver Más </a>
+        <section class=" conteiner banner-content text-center global-b mt-4">
+            <a href="" class="seccion2-p btn btn-light btn-lg">Ver Más </a>
         </section>
 
     </main>
 
     <footer class="custom-footer cont-foot p-5 mt-5">
         <p class=" text-white text-center">
-          <span class="custom-head2"><i class="bi bi-diamond-fill"></i> SIMAN.COM </span>
+            <span class="custom-head2"><i class="bi bi-diamond-fill"></i> SIMAN.COM </span>
         </p>
-        <div class="text-center custom-head2" >
-          <h3 class="text-dark">Redes Sociales</h3>
-          <a href="https://www.facebook.com/simanelsalvador" target="_blank" class="text-while p-2"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.instagram.com/almacenessiman_sv/" target="_blank" class="text-while p-2"><i class="bi bi-instagram p-2"></i></a>
-          <a href="https://www.youtube.com/user/SimanElSalvador" target="_blank" class="text-while p-2"><i class="bi bi-youtube"></i></a>
+        <div class="text-center custom-head2">
+            <h3 class="text-dark">Redes Sociales</h3>
+            <a href="https://www.facebook.com/simanelsalvador" target="_blank" class="text-while p-2"><i
+                    class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/almacenessiman_sv/" target="_blank" class="text-while p-2"><i
+                    class="bi bi-instagram p-2"></i></a>
+            <a href="https://www.youtube.com/user/SimanElSalvador" target="_blank" class="text-while p-2"><i
+                    class="bi bi-youtube"></i></a>
         </div>
-        <p class="text-center my-2 text-dark">Copyright © 2025 Almacenes Siman El Salvador. Reservados todos los derechos.</p>
+        <p class="text-center my-2 text-dark">Copyright © 2025 Almacenes Siman El Salvador. Reservados todos los
+            derechos.</p>
         <p class="text-center text-dark">Términos y condiciones | Política de privacidad</p>
 
-      </footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
