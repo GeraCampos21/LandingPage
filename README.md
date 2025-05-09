@@ -8,7 +8,7 @@ Este repositorio contiene un conjunto de **landing pages diseñadas para la Tien
 
 ## 🌐 Demo en línea
 
-🔗 [Ver Sitio en Vivo](https://practica-kodigo-landing-siman.netlify.app/)
+🔗 [Ver Sitio en Vivo](https://lading-siman.netlify.app/ofertas-gaming)
 
 ---
 
@@ -16,7 +16,7 @@ Este repositorio contiene un conjunto de **landing pages diseñadas para la Tien
 
 | Página de Inicio | Ofertas Día de la Madre | Sección PC Gamer |
 |------------------|--------------------------|-------------------|
-| ![Inicio]() | ![Madre]() | ![Gamer]() |
+| ![Inicio](https://drive.google.com/uc?export=view&id=1eOREDviKyOvt-uUfjIpymev81X5msXtO) | ![Madre](https://drive.google.com/uc?export=view&id=1MB3hoKW5o-Is7oHMuAkmW9HiHYe8xI3g) | ![Gamer](https://drive.google.com/uc?export=view&id=1jQ1PYh9_bgze5kFdvzZ1BErfhFR5xvD0) |
 
 ---
 
