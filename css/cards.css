@@ -1,24 +1,23 @@
 /*********************************** Seccion1 de card*******************************************************************/
 
 /*************Banner***************/
-
 .banner2 {
     background-image: url("https://i.pinimg.com/736x/c2/3d/bb/c23dbb2def4938ab04cf19caca9f1498.jpg");
     background-size: cover;
     background-position: center;
-    height: 55vh;
+    height: 64vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--blanco);
     text-align: center;
-    
+
 }
 
 .banner-content2 {
-    height: 21.5rem;
-    font-family: var(--fuenteHeading);
-    color: var(--blanco);
+    height: 21rem;
+    font-family: var(--fuente-titulos);
+    color: var(--color-fondo-suave);
     font-weight: 700;
     font-size: 1rem;
 }
@@ -32,27 +31,27 @@
 }
 
 .contend-grid h5 {
-    color: var(--negro);
-    font-family: var(--fuenteHeading);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-titulos);
     font-weight: 700;
 }
 
 .contend-grid p {
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-texto);
     font-weight: 400;
 }
 
 
 .contend-grid li:nth-of-type(1) {
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-texto);
     font-weight: 400;
 }
 
 .contend-grid li:nth-of-type(2) {
-    color: var(--primario);
-    font-family: var(--fuenteParrafos);
+    color: var(--color-principal);
+    font-family: var(--fuente-texto);
     font-weight: 400;
 }
 
@@ -80,7 +79,7 @@
     /* Tamaño fijo de ancho */
     height: 50px;
     /* Tamaño fijo de altura */
-    /* Mantiene la proporción y recorta si es necesario */
+    /
 }
 
 .no-border {
@@ -89,9 +88,9 @@
 
 /*****Estilo al boton de ver mas en articulos******/
 .global-b a {
-    color: var(--blanco);
+    color: var(--color-fondo-suave);
     font-weight: 700;
-    background-color: var(--primario);
+    background-color: var(--color-principal);
     margin-top: 1rem;
 }
 
@@ -112,71 +111,74 @@
     }
 }
 
-
 /*********************************** Seccion2 de card de juegos y consolas gamer*******************************************************************/
-
 .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-  }
+}
 
-  .card {
-    background-color: #fff;
+.card {
+    background-color: var(--blanco);
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px var(--color-acento);
     transition: transform 0.2s ease-in-out;
-  }
+}
 
-  .card:hover {
+.card:hover {
     transform: translateY(-10px);
-  }
+}
 
-  .card img {
+.card img {
     width: 100%;
     height: 325px;
-  }
+}
 
-  .card-body {
+.card-body {
     padding: 15px;
-  }
+}
 
-  .card-title {
+.card-title {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 5px;
-    color: var(--negro);
-    font-family: var(--fuenteHeading);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-titulos);
 
-  }
+}
 
-  .card-text {
+.card-container p:nth-of-type(5) {
+    color: var(--color-principal);
+}
+
+.card-text {
     font-size: 1rem;
-    color: var(--negro) !important;
-    font-family: var(--fuenteParrafos);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-texto);
     font-weight: 400;
-  } 
+}
 
-  .card-container p:nth-of-type(5){
-    color: var(--primario);
-  }
-  .discount {
-    background-color: var(--primario); /*rojo*/
-    color: var(--blanco);
+
+.discount {
+    color: var(--blanco) !important;
+    font-family: var(--fuente-texto);
+    font-weight: 400;
+    background-color: var(--color-principal);
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 14px;
-    position: absolute; /*Posicionamiento absoluto*/
+    position: absolute;
+    /*Posicionamiento absoluto*/
     top: 10px;
     right: 10px;
 }
 
 /*********************************** Fin Seccion2 de card de juegos y consolas gamer*******************************************************************/
 
-.container-contact{
+.container-contact {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr 1fr;
@@ -193,37 +195,7 @@
         justify-content: space-around;
     }
 
-    .container-contact p{
+    .container-contact p {
         margin-top: 1rem;
     }
-    
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

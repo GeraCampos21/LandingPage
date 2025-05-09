@@ -1,51 +1,61 @@
 /******** PALETA DE COLORES Y TIPOS DE FUENTES************/
 :root {
-    --fuenteHeading: 'PT Sans', sans-serif;
-    --fuenteParrafos: 'Open Sans', sans-serif;
-    --primario: #ff4e50;
-    --secundario: #fffedd;
-    --blanco: #efefef;
-    --negro: #929292;
+    --fuente-titulos: 'PT Sans', sans-serif;
+    --fuente-texto: 'Open Sans', sans-serif;
+    --color-principal: #fc1707;
+    --color-acento: #fffedd;
+    --color-fondo-suave: #efefef;
+    --color-texto-gris: #757575;
+    --blanco: #ffffff;
+    --negro: #0d0a0a;
 }
 
 /***************************variables globales *****************************************/
 
 .global-head {
-    color: var(--negro);
-    font-family: var(--fuenteHeading);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-titulos);
     font-weight: 700;
 }
 
 .global-p {
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-texto);
     font-weight: 400;
 }
 
 .global-correo {
-    background-color: var(--primario);
-    color: var(--blanco);
-    font-family: var(--fuenteHeading);
+    background-color: var(--color-principal);
+    color: var(--color-fondo-suave);
+    font-family: var(--fuente-titulos);
     font-weight: 700;
 }
 
-.body-oferta{
-    background-color: var(--blanco);
+.body-oferta {
+    background-color: var(--color-fondo-suave);
 }
 
 .form-email-color {
-    background-color: var(--blanco);
+    background-color: var(--color-fondo-suave);
 }
 
+.btn-danger{
+    background-color: var(--color-principal);
+    font-family: var(--fuente-texto);
+}
 
 /**Estos son para el color, tamaño y tipo de letra para lo que es movil, vista movil**/
+body {
+    padding-top: 70px;
+    /* Ajusta según la altura del navbar */
+}
 
 .custom-navbar {
-    background-color: var(--primario);
+    background-color: var(--color-principal);
 }
 
 .custom-head {
-    font-family: var(--fuenteHeading);
+    font-family: var(--fuente-titulos);
     font-size: 1.8rem;
     /* o 24px, 3rem, etc. */
     font-weight: 400;
@@ -53,7 +63,7 @@
 }
 
 .custom-head a {
-    color: var(--blanco);
+    color: var(--color-fondo-suave);
 }
 
 .search-wrapper {
@@ -66,14 +76,13 @@
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
-    color: rgb(219, 42, 42);
+    color: var(--color-principal);
 }
 
-
 .navbar-search {
-    border: 1px solid rgb(7, 75, 170);
+    border: 1px solid var(--color-blue);
     /* Ejemplo: cambiar el borde */
-    background-color: var(--secundario);
+    background-color: var(--color-acento);
     /* Tu color primario */
     border-radius: 1.5rem;
     padding-left: 30px;
@@ -83,13 +92,13 @@
 }
 
 .navbar-btn {
-    background-color: var(--secundario);
+    background-color: var(--color-acento);
 }
 
 
 .navbar-ul a {
-    color: var(--blanco);
-    font-family: var(--fuenteHeading);
+    color: var(--color-fondo-suave);
+    font-family: var(--fuente-titulos);
     font-weight: 700;
     font-size: 1.2rem;
 
@@ -99,14 +108,13 @@
     .navbar-input {
         width: 25rem;
     }
-    
-}
 
+}
 
 /*Los tamaños de texto de la pantalla para lo que es pantallas de escritorio*/
 @media (min-width: 992px) {
     .custom-head {
-        font-family: var(--fuenteHeading);
+        font-family: var(--fuente-titulos);
         font-size: 2rem;
         /* o 24px, 3rem, etc. */
         font-weight: 700;
@@ -133,8 +141,8 @@
     }
 
     .navbar-ul a {
-        color: var(--blanco);
-        font-family: var(--fuenteHeading);
+        color: var(--color-fondo-suave);
+        font-family: var(--fuente-titulos);
         font-weight: 700;
         font-size: 1.2rem;
 
@@ -152,24 +160,21 @@
 /***********************************Estos para los articulos de siman primera seccion*******************************************************************/
 
 .section1-fuent h2 {
-    color: var(--negro);
-    font-family: var(--fuenteHeading);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-titulos);
     font-weight: 700;
 }
 
 .section1-fuent p {
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-texto);
     font-weight: 400;
 }
-
 
 /***********************************FIN articulos de siman primera seccion*******************************************************************/
 
 
-
 /** Baner esta es la seccion de los articulos gamer para la venta de articulos gamer*/
-
 .banner {
     background-image: url("https://i.pinimg.com/1200x/30/b3/47/30b347514b7cee42eff904cb749077db.jpg");
     background-size: cover;
@@ -178,7 +183,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--blanco);
     text-align: center;
     position: relative;
 }
@@ -191,6 +196,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    ;
     /* oscurece la imagen */
     z-index: 1;
 }
@@ -198,7 +204,7 @@
 .banner-content {
     position: relative;
     z-index: 2;
-    font-family: var(--fuenteHeading);
+    font-family: var(--fuente-titulos);
     font-weight: 700;
     font-size: 1rem;
 }
@@ -206,8 +212,8 @@
 
 
 .banner a {
-    background-color: var(--primario);
-    color: var(--blanco);
+    background-color: var(--color-principal);
+    color: var(--color-fondo-suave);
 }
 
 
@@ -220,7 +226,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white;
+        color: var(--blanco);
         text-align: center;
         position: relative;
     }
@@ -228,7 +234,7 @@
     .banner-content {
         position: relative;
         z-index: 2;
-        font-family: var(--fuenteHeading);
+        font-family: var(--fuente-titulos);
         font-weight: 700;
         font-size: 1.3rem;
     }
@@ -237,22 +243,21 @@
 
 /***********************************FIN SECCION BANNER*******************************************************************/
 
-
 /**  CODIGO PARA LA SEGUNDA SECCION PROMOCION DIA DE LA MADRE***/
 
 .seccion2-background {
-    background-color: var(--blanco);
+    background-color: var(--color-fondo-suave);
 
 }
 
 .container-seccion {
-    font-family: var(--fuenteHeading);
+    font-family: var(--fuente-titulos);
     font-size: 1.5rem;
     /* o 24px, 3rem, etc. */
     font-weight: 700;
     /* para hacerlo en negrita */
     text-align: center;
-    color: var(--negro);
+    color: var(--color-texto-gris);
 }
 
 a {
@@ -261,11 +266,10 @@ a {
 }
 
 .seccion2-p {
-    background-color: var(--primario) !important;
-    color: var(--blanco);
-    font-family: var(--fuenteParrafos);
+    background-color: var(--color-principal) !important;
+    color: var(--color-fondo-suave);
+    font-family: var(--fuente-texto);
     font-size: 1rem;
-    /* o 24px, 3rem, etc. */
     font-weight: 700;
     border-radius: 0.5rem;
     margin-left: 0.2rem;
@@ -280,8 +284,8 @@ a {
 }
 
 .header-article {
-    color: var(--negro);
-    font-family: var(--fuenteHeading);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-titulos);
     font-weight: 700;
 }
 
@@ -289,7 +293,7 @@ a {
 /****************ESTE CODIGO ES PARA PANTALLA GRANDES*********/
 @media (min-width: 768px) {
     .seccion2-background {
-        background-color: var(--blanco);
+        background-color: var(--color-fondo-suave);
 
     }
 
@@ -317,13 +321,13 @@ a {
     }
 
     .container-seccion {
-        font-family: var(--fuenteHeading);
+        font-family: var(--fuente-titulos);
         font-size: 2.5rem;
         /* o 24px, 3rem, etc. */
         font-weight: 700;
         /* para hacerlo en negrita */
         text-align: center;
-        color: var(--negro);
+        color: var(--color-texto-gris);
 
     }
 
@@ -333,9 +337,6 @@ a {
 
 
 /***********************************FIN DE LA SECCION  2 PROMOCION DIA DE LA MADRE*******************************************************************/
-
-
-
 
 /***********************************SECCION sobre informacion de siman*******************************************************************/
 
@@ -356,11 +357,11 @@ a {
         flex-wrap: wrap;
     }
 
-    .contend-border{
-        border: var(--primario);
-        background-color: #ffffff;
+    .contend-border {
+        border: var(--color-principal);
+        background-color: var(--blanco);
         border-radius: 1rem;
-     }
+    }
 
 }
 
@@ -370,8 +371,8 @@ a {
     align-content: center;
     justify-content: center;
     gap: 1.5rem;
-    color: var(--negro);
-    font-family: var(--fuenteParrafos);
+    color: var(--color-texto-gris);
+    font-family: var(--fuente-texto);
     font-weight: 400;
 }
 
@@ -380,11 +381,8 @@ a {
 
 .cont-icon {
     font-size: 2.5rem;
-    color: var(--primario);
+    color: var(--color-principal);
 }
-
-
-
 
 
 /***********************************FIN DE SECCION sobre informacion de siman*******************************************************************/
@@ -401,29 +399,29 @@ a {
 }
 
 .custom-footer {
-    background-color: var(--secundario);
+    background-color: var(--color-acento);
 }
 
 .custom-head2 {
-    font-family: var(--fuenteHeading);
+    font-family: var(--fuente-titulos);
     font-size: 2rem;
     /* o 24px, 3rem, etc. */
     font-weight: 400;
-    color: var(--negro);
+    color: var(--color-texto-gris);
     /* para hacerlo en negrita */
 }
 
 .custom-head2 a {
-    color: var(--negro);
+    color: var(--color-texto-gris);
     font-size: 1.5rem;
 }
 
 .icon-color {
-    border-color: var(--negro);
+    border-color: var(--color-texto-gris);
 }
 
 .navbar-toggler {
-    border-color: white;
+    border-color: var(--blanco);
     /* Opcional: cambiar color del borde */
 }
 
@@ -431,7 +429,7 @@ a {
 /*Los tamaños de texto de la pantalla para lo que es pantallas de escritorio*/
 @media (min-width: 768px) {
     .custom-head {
-        font-family: var(--fuenteHeading);
+        font-family: var(--fuente-titulos);
         font-size: 2rem;
         /* o 24px, 3rem, etc. */
         font-weight: 700;
@@ -439,7 +437,7 @@ a {
     }
 
     .custom-text {
-        font-family: var(--fuenteParrafos);
+        font-family: var(--fuente-texto);
         font-size: 1.5rem;
         /* o 24px, 3rem, etc. */
         font-weight: 400;
